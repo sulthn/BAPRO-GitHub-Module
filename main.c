@@ -27,7 +27,7 @@ int main(void) {
     char vigenereKey2[] = "RealKey";
 
     decryptLayer1(ciphertext, shiftKey1);
-    printf("[Layer 1] Intermediate: %s\n", ciphertext)
+    printf("[Layer 1] Intermediate: %s\n", ciphertext);
     decryptLayer2(ciphertext, vigenereKey2);
 
     printf("[Layer 2] Plaintext   : %s\n", ciphertext);
