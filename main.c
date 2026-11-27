@@ -23,7 +23,7 @@ void decryptLayer2(char *text, const char *key) {
 }
 int main(void) {
     char ciphertext[] = "Avrrybde vq Mbbs Zpqoyz";
-    int shiftKey1 = 99;
+    int shiftKey1 = 3;
     char vigenereKey2[] = "wrongkey";
 
     decryptLayer1(ciphertext, shiftKey1);
